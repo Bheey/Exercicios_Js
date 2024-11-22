@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Imagens/favicon-16x16.png" type="image/x-icon">
+    <title>Verificação de Idade</title>
+</head>
+<body>
+    <header>
+        <h1>Verificação de Idade</h1>
+    </header>
+
+    <section>
+        <div id="quest">
+                <label for="naci">Ano de nacimento:</label> <input id="naci" placeholder="(Ex: 2000)"  type="number" required >
+
+                <p>Sexo: <input type="radio" name="Sexo" id="Mas" checked> <label for="Mas">Masculino</label>
+
+                <input type="radio" name="Sexo" id="Fem"> <label for="Fem">Feminino</label>
+                    <p>
+                    <input id="enviar" type="button" value="Verificar" onclick="clickar()">
+                    </p>
+                </p>
+        </div>
+        <div id="hxh">
+            Preencha os dados acima...
+            <img id="foto" src="Imagens/incone-perfil.jpg" alt="">
+        </div>
+
+    </section>
+    <footer>
+        <p>Por Brenno Guilherme.</p>
+        <p class="info">Seus dados não serão salvos</p>
+    </footer>
+    
+    <script src="fff.js"></script>
+</body>
+</html>
